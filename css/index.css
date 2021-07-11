@@ -72,8 +72,9 @@ body {
   font-size: 10px;
 }
 .description {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 20px;
+  padding: 0px 70px;
 }
 .copyright {
   color: #fff;
@@ -103,6 +104,9 @@ body {
     font-size: 0.5rem;
     margin-top: 10px;
     line-height: 22px;
+  }
+  .description {
+    padding: 0 50px;
   }
   .product {
     z-index: 1;
