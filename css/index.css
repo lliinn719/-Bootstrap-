@@ -9,18 +9,27 @@ body {
 }
 .container-fluid {
   background-color: #b0ceeb;
-  padding: 0 50px;
   max-width: 1010px;
   min-width: 300px;
+  padding: 0px 50px;
 }
-
 .logo {
   width: 16%;
+}
+.mx-4 {
+  padding: 0px 50px;
+}
+.row {
+  margin: 0px 80px;
+}
+.banner {
+  padding: 0px 50px;
 }
 .line {
   background-color: #3f87d3;
   height: 10px;
   z-index: 2;
+  margin: 0px 50px;
 }
 .article {
   font-size: 14px;
@@ -41,6 +50,9 @@ body {
   position: absolute;
   float: left;
   z-index: 2;
+}
+.short {
+  margin: 0px 75px;
 }
 .headline {
   line-height: 35px;
@@ -75,16 +87,11 @@ body {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 750px) {
   .img-fluid {
     display: block;
     margin: 0 auto;
     width: 100%;
-  }
-  .logo {
-    width: 30%;
-    display: block;
-    margin: 0 auto;
   }
   .title {
     padding: 1rem;
@@ -99,3 +106,20 @@ body {
     width: 92%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+  }
+  .banner {
+    padding: 0;
+  }
+  .container-fluid {
+    padding-left: 15px;
+  }
+}
+
+/* @media screen (min-width: 600px) {
+} */
